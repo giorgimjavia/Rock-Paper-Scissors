@@ -1,0 +1,77 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.rock {
+    font-size: 150px;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.paper {
+    font-size: 150px;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.scissors {
+    font-size: 150px;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+p {
+    font-size: larger;
+}
+
+
+button {
+    transition: 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    height: 90vh;
+    gap: 50px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.result {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
